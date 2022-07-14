@@ -1,0 +1,36 @@
+@import "styles/colors";
+
+.circulMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 739px;
+  width: 1008px;
+  position: relative;
+  margin: 81px auto 0;
+
+
+  &__main {
+    position: relative;
+    width: 315px;
+    height: 315px;
+    border-radius: 50%;
+
+    &__shadow {
+      background: #ffffff;
+      opacity: 0.4;
+      width: 315px;
+      height: 315px;
+      border-radius: 50%;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+
+    h3 {
+      position: absolute;
+      top: 231px;
+      left: 77px;
+    }
+  }
+}

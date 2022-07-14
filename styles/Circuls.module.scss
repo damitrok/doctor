@@ -1,0 +1,27 @@
+@import "styles/colors";
+
+.circul{
+    width: 111px;
+    height: 108px;
+    cursor: pointer;
+
+    .circulImg{
+        width: auto;
+        height: auto;
+    }
+    
+    .cross{
+        position: absolute;
+        top: -30px;
+        left: -30px;
+    }
+
+    .descriptions{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: $mainColor;
+        width: 250px;
+      
+    }
+}
